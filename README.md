@@ -16,3 +16,9 @@ List of other useful Dockers
 Renv and docker 
 
 > https://rstudio.github.io/renv/articles/docker.html
+
+--
+## Acknowledgements 
+
+- Slack CS-JAX group members
+- Data enthusiasts for their insights in help forums @ www !
