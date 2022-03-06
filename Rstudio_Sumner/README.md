@@ -11,7 +11,7 @@ then
 
 with 
 ```
-cat launch_rstudio.sbatch
+>$ cat launch_rstudio.sbatch
 #!/usr/bin/env bash
 ### SLURM HEADER
 #SBATCH --job-name=rstudio-flynnb  #!!
