@@ -1,0 +1,15 @@
+Bootstrap: docker
+From: python:3.9.7-slim-buster
+
+%post
+    apt-get update
+    apt-get install -y graphviz
+    pip install --upgrade pip
+    pip install jupyterlab
+    pip install asari-metabolomics
+    pip install mass2chem 
+    pip install jms-metabolite-services
+    pip install metDataModel
+
+%runscript
+    exec "$@"
