@@ -15,12 +15,12 @@ with
 >$ cat launch_rstudio.sbatch
 #!/usr/bin/env bash
 ### SLURM HEADER
-#SBATCH --job-name=rstudio-flynnb  #!!
-#SBATCH --output=/home/flynnb/logs/rstudio-%j.log  #!!
+#SBATCH --job-name=rstudio_AmnahSiddiqa #!!
+#SBATCH --output=/projects/sh-li-lab/share/SiddiqaA_Projects/mySingularityImages/logs-%j.log  #!!
 #SBATCH --mail-type=FAIL
-#SBATCH --mail-user=bill.flynn@jax.org #!!
+#SBATCH --mail-user=amnah.siddiqa@jax.org #!!
 
-#SBATCH --account=compsci  #!!
+#SBATCH --account=pers  #!!
 #SBATCH --partition=compute
 #SBATCH --qos=batch
 #SBATCH --time=72:00:00
@@ -34,8 +34,8 @@ with
 
 localcores=${SLURM_CPUS_PER_TASK}
 
-simg_path="/fastscratch/flynnb/rstudio.simg" #!!
-work_dir="/fastscratch/flynnb/work" #!!
+simg_path="/projects/sh-li-lab/share/SiddiqaA_Projects/mySingularityImages/rstudio.simg" #!!
+work_dir="/projects/sh-li-lab/share/SiddiqaA_Projects/" #!!
 
 set -euo pipefail
 
