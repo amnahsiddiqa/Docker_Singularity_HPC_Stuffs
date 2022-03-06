@@ -47,7 +47,7 @@ singularity exec \
     --auth-none=0 --auth-pam-helper-path=pam-helper \
     --auth-timeout-minutes=0 \
     --auth-stay-signed-in-days=30
-
+### Courtesy of AH <3
 ```
 
 3- Create your own image
