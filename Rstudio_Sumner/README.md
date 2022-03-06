@@ -65,6 +65,9 @@ singularity exec \
 ```
 
 3- Create your own image
+
+"My strategy in running Rstudio from sumner is to have all the packages locally installed. I use renv to manage them and keep the cache with all the packages installed under our lab’s projects directory. Any new project I start uses renv and the cache directs to that original cache folder. I have installed >400 packages and in my experience if sth is failing it is most likely a dependency missing in the unix setup. I am copying below the .def file I have been using successfully with bioconductor and CRAN packages. If R is giving you a lib missing error you can just add it to long list of other lib installs. Using renv has been very helpful in changing R versions too."
+
 ```
 Bootstrap: docker
 From: rocker/rstudio:4.0.3
