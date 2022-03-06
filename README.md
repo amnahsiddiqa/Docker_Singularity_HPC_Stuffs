@@ -4,7 +4,11 @@
 - Rstudio 
 - Jupyterlab 
 
+---
 
+#### Jax's Singularity Registry: 
+
+https://jaxreg.jax.org/containers/569
 
 ---
 
