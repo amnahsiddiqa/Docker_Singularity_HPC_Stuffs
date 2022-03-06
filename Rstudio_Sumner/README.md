@@ -64,14 +64,14 @@ singularity exec \
     --auth-stay-signed-in-days=30 
 ```
 
-3- create your own 
+3- Create your own image
 ```
 Bootstrap: docker
 From: rocker/rstudio:4.0.3
 
 
 %labels
-    Author selcan.aydin@jax.org
+    Author amnah.siddiqa@jax.org
     R_VERSION 4.0.3
 
 %runscript
