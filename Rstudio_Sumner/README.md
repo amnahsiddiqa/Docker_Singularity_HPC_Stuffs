@@ -3,7 +3,8 @@
 1- rstudio.jax.org 
 
 2- builtin image 
-> singularity pull docker://rocker/rstudio:4.0.3 --name rstudio.simg
+
+> singularity pull --name rstudio.simg docker://rocker/rstudio:4.0.3
 
 then
 
