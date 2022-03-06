@@ -4,6 +4,12 @@
 - Rstudio 
 - Jupyterlab 
 
+--- 
+
+### Definitions of image file 
+https://apptainer.org/user-docs/master/definition_files.html
+
+
 ---
 
 #### Jax's Singularity Registry: 
