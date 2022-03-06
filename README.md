@@ -8,7 +8,7 @@
 
 #### Jax's Singularity Registry: 
 
-https://jaxreg.jax.org/containers/569
+https://jaxreg.jax.org/containers
 
 ---
 
@@ -20,6 +20,11 @@ List of other useful Dockers
 Renv and docker 
 
 > https://rstudio.github.io/renv/articles/docker.html
+
+Seurat:
+https://jaxreg.jax.org/containers/569
+
+
 
 --
 ## Acknowledgements 
