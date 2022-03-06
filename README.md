@@ -10,6 +10,14 @@
 
 https://jaxreg.jax.org/containers
 
+Run and update simgularity images :
+https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/JAX-Singularity-Container-Registry-User-Guide.aspx
+
+
+Our lab team : 
+
+https://jaxreg.jax.org/teams/15/view
+
 ---
 
 List of other useful Dockers
