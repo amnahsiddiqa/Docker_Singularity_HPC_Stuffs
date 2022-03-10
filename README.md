@@ -38,7 +38,11 @@ Renv and docker
 Seurat:
 https://jaxreg.jax.org/containers/569
 
+--
 
+Future Exploration
+
+Docker Compose - https://docs.docker.com/compose/compose-file/; https://docs.docker.com/compose/gettingstarted/
 
 --
 ## Acknowledgements 
