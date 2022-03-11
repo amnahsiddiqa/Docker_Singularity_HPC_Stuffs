@@ -16,3 +16,10 @@ source  activate home/siddia/anaconda3/envs/r-environment
 Rscript /projects/sh-li-lab/share/SiddiqaA_Projects/Maheshwor_tests/test_terminal.R
 
 ```
+
+#### Resources
+
+https://sumner.verhaaklab.com/conda/s01_conda/
+
+
+https://hpctalk.jax.org/t/running-first-r-pipeline-on-sumner/73/1
