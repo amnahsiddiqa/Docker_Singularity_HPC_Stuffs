@@ -23,3 +23,8 @@ https://sumner.verhaaklab.com/conda/s01_conda/
 
 
 https://hpctalk.jax.org/t/running-first-r-pipeline-on-sumner/73/1
+
+
+####
+
+conda info --envs
