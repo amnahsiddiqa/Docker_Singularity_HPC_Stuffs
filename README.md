@@ -43,6 +43,11 @@ Seurat:
 https://jaxreg.jax.org/containers/569
 
 --
+Helpful Peer Resources: 
+
+https://code.sbamin.com/hpc/cpu/sumner_2/
+
+--
 
 Future Exploration
 
