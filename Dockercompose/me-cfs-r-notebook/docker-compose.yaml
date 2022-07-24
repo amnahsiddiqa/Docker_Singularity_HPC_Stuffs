@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  R-notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: R-notebook
+    image: gongm/me-cfs-r-jupyter
+    ports:
+      - '8888:8888'
+    volumes:
+      - ../../:/home/jovyan/
+      
+

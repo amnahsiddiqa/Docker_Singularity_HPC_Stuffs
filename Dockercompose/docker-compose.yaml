@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  R-notebook:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: test
+    image: docker.io/amnahsid/test
+    ports:
+      - '8888:8888'
+    volumes:
+      - ../../:/home/jovyan/
