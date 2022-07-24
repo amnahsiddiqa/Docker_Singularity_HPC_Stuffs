@@ -1,9 +1,6 @@
 # Docker compose guidelines to run 
 
 
-## for locally built  images 
-- `docker-compose up`
-
 ## How to run for locally built  images 
 - `cd path/to/directory containing yaml and Dockerfile`
 - Build: `docker-compose build`
@@ -28,10 +25,27 @@ services:
 
 ```
 
+and yaml file looks like tthis 
+
+```
+version: '3.9'
+services:
+  R-notebook:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: test
+    image: docker.io/amnahsid/test
+    ports:
+      - '8888:8888'
+    volumes:
+      - ../../:/home/jovyan/
+```
+
 ## How to run for keeping updates on registry 
 
-- `cd path/to/directory containing yaml and Dockerfile`
 ```
+cd path/to/directory containing yaml and Dockerfile
 #Build
 $docker-compose build
 $docker login
@@ -48,7 +62,7 @@ $ docker-compose push
 $ docker logout
 ```
 
-## referenvces : 
+## references : 
 - https://docs.docker.com/engine/reference/commandline/compose_push/
 - https://stackoverflow.com/questions/53416685/docker-compose-tagging-and-pushing
 
