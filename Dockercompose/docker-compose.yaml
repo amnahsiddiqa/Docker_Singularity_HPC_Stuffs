@@ -4,9 +4,9 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: test
-    image: docker.io/amnahsid/test
+    container_name: msms
+    image: docker.io/amnahsid/msms
     ports:
       - '8888:8888'
     volumes:
-      - ../../:/home/jovyan/
+      - ~:/home/jovyan/
