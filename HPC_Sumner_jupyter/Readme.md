@@ -86,4 +86,4 @@ module load singularity
 
 Things to do :
 
-- Conda install and Run command was not working at the moment;  possibly related to  https://github.com/LLNL/lbann/issues/855#issue-406891784; ; need to come back later ;
+- Conda install and Run command was not working at the moment;  possibly related to https://github.com/LLNL/lbann/issues/855#issue-406891784; and https://stackoverflow.com/questions/63619623/problem-to-extend-a-singularity-image-from-an-existing-docker-image; need to come back later ;
