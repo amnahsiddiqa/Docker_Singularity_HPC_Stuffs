@@ -1,3 +1,8 @@
+## SIngularity Reads:
+https://readthedocs.org/projects/singularity-userdoc/downloads/pdf/latest/
+
+
+
 - Starting with Singularity 3.2, the Bootstrap keyword needs to be the
 first entry in the header section. This breaks compatibility with older
 versions that allow the parameters of the header to appear in any order.
