@@ -86,4 +86,4 @@ module load singularity
 
 Things to do :
 
-- Conda install and Run command was not working at the moment ; need to come back later ;
+- Conda install and Run command was not working at the moment;  possibly related to  https://github.com/LLNL/lbann/issues/855#issue-406891784; ; need to come back later ;
