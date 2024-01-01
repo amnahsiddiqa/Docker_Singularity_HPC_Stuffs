@@ -1,7 +1,5 @@
 ### My docker images
-https://hub.docker.com/u/asidd13
-
-BElow is the latest; asidd13 is obsolete;
+https://hub.docker.com/u/asidd13 [asidd13 is obsolete]
 
 https://hub.docker.com/u/amnahsid
 
